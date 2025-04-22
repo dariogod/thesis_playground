@@ -12,16 +12,18 @@ from tqdm import tqdm
 from .pitch_drawer import (
     FrameInfo, Player, Position, 
     draw_frame, euclidean, distance_to_line, 
-    get_point_of_action, get_closest_point_on_line
+    get_point_of_action, get_closest_point_on_diagonal,
+    calculate_pitch_dimensions
 )
 
-def analyze_ref_position(frame_info: FrameInfo) -> FrameInfo:
+def analyze_ref_position(frame_info: FrameInfo, dimensions: dict) -> FrameInfo:
     """
     Analyze the referee's position relative to players and ideal positioning.
     Updates the frame_info object with the analysis results.
     
     Args:
         frame_info: Frame information including players and referee
+        dimensions: Dictionary containing pitch dimensions
         
     Returns:
         FrameInfo: The updated frame information with analysis data
@@ -35,20 +37,19 @@ def analyze_ref_position(frame_info: FrameInfo) -> FrameInfo:
             ref_pos = player.position
         elif player.role in ["player", "goalkeeper"]:
             player_positions.append(player.position)
-    
-    # If no referee or players found, return the original frame_info
-    if not ref_pos or not player_positions:
+
+    if not player_positions:
         return frame_info
     
-    # Calculate point of action (player centroid)
     point_of_action = get_point_of_action(player_positions)
+    frame_info.point_of_action = point_of_action
     
-    # Calculate distances
-    dist_to_diagonal = distance_to_line(ref_pos)
+    if not ref_pos:
+        return frame_info
+    
+    dist_to_diagonal = distance_to_line(ref_pos, dimensions)
     dist_to_action = euclidean(ref_pos, point_of_action)
     
-    # Update frame_info with analysis data
-    frame_info.point_of_action = point_of_action
     frame_info.dist_to_diagonal = dist_to_diagonal
     frame_info.dist_to_point_of_action = dist_to_action
     
@@ -114,8 +115,12 @@ def get_frame_info(json_file_path: str, frame_id: Optional[str] = None) -> Frame
     
     frame_info = FrameInfo(frame_id=selected_image_id, players=players)
     
+    # Calculate pitch dimensions for analysis
+    image_width, image_height = 1920, 1080  # Standard dimensions
+    dimensions = calculate_pitch_dimensions(image_width, image_height)
+    
     # Analyze referee position
-    frame_info = analyze_ref_position(frame_info)
+    frame_info = analyze_ref_position(frame_info, dimensions)
     
     return frame_info
 

@@ -248,8 +248,23 @@ def euclidean(p1: Position, p2: Position) -> float:
     """Calculate Euclidean distance between two positions."""
     return math.sqrt((p1.x - p2.x)**2 + (p1.y - p2.y)**2)
 
-def distance_to_line(point: Position, m=1.0, b=0.0) -> float:
-    """Calculate distance from a point to a line defined by y = mx + b."""
+def distance_to_line(point: Position, dimensions: dict) -> float:
+    """Calculate distance from a point to the diagonal line."""
+    # Get the pitch corners
+    corners = get_pitch_corners(dimensions)
+    
+    # Get diagonal endpoints (bottom-left to top-right)
+    p1_x, p1_y = corners["bottom_left"]
+    p2_x, p2_y = corners["top_right"]
+    
+    # Calculate the line equation parameters: y = mx + b
+    # Slope (m) = (y2 - y1) / (x2 - x1)
+    m = (p2_y - p1_y) / (p2_x - p1_x)
+    
+    # y-intercept (b) = y1 - m * x1
+    b = p1_y - m * p1_x
+    
+    # Distance formula
     numerator = abs(m * point.x - point.y + b)
     denominator = math.sqrt(m**2 + 1)
     return numerator / denominator
@@ -263,12 +278,27 @@ def get_point_of_action(player_positions: List[Position], k=1) -> Position:
     return Position(x=float(kmeans.cluster_centers_[0][0]), 
                     y=float(kmeans.cluster_centers_[0][1]))
 
-def get_closest_point_on_line(point: Position, m=1.0, b=0.0) -> Position:
-    """Get the closest point on a line to a given point."""
+def get_closest_point_on_diagonal(point: Position, dimensions: dict) -> Position:
+    """Get the closest point on the diagonal line to a given point."""
+    # Get the pitch corners
+    corners = get_pitch_corners(dimensions)
+    
+    # Get diagonal endpoints (bottom-left to top-right)
+    p1_x, p1_y = corners["bottom_left"]
+    p2_x, p2_y = corners["top_right"]
+    
+    # Calculate the line equation parameters: y = mx + b
+    # Slope (m) = (y2 - y1) / (x2 - x1)
+    m = (p2_y - p1_y) / (p2_x - p1_x)
+    
+    # y-intercept (b) = y1 - m * x1
+    b = p1_y - m * p1_x
+    
     # For line y = mx + b, the closest point to (x0, y0) is:
     x0, y0 = point.x, point.y
     x = (x0 + m * y0 - m * b) / (1 + m * m)
     y = m * x + b
+    
     return Position(x=x, y=y)
 
 def get_pitch_corners(dimensions: dict) -> Dict[str, Tuple[float, float]]:
@@ -356,6 +386,8 @@ def draw_player_markers(image: np.ndarray, frame_info: FrameInfo, dimensions: di
             color = left_color
         elif player.team == "right":
             color = right_color
+        elif player.role == "ball":
+            color = (128, 128, 128)  # Grey for ball
         else:
             color = unknown_color
         
@@ -405,7 +437,7 @@ def draw_analysis_elements(image: np.ndarray, frame_info: FrameInfo, dimensions:
         ref_x, ref_y = get_pitch_coordinates(dimensions, ref_pos.x, ref_pos.y)
         
         # Get closest point on diagonal line to referee
-        closest_diag_point = get_closest_point_on_line(ref_pos)
+        closest_diag_point = get_closest_point_on_diagonal(ref_pos, dimensions)
         diag_x, diag_y = get_pitch_coordinates(dimensions, closest_diag_point.x, closest_diag_point.y)
         
         # Get point of action coordinates
