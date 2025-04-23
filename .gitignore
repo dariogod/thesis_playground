@@ -1,4 +1,5 @@
 invoke_gamestate/data/*
+action_spotting/data/*
 
 # mac
 **/.DS_Store
