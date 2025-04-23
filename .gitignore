@@ -1,6 +1,8 @@
 invoke_gamestate/data/*
 action_spotting/data/*
 
+invoke_gamestate/visualization/output/*
+
 # mac
 **/.DS_Store
 
@@ -19,7 +21,7 @@ develop-eggs/
 dist/
 downloads/
 eggs/
-.eggs/
+.eggs/¨
 lib/
 lib64/
 parts/
