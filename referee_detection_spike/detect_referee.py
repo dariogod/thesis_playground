@@ -2,9 +2,12 @@ import cv2
 import numpy as np
 from ultralytics import YOLO
 from sklearn.cluster import KMeans
+from collections import defaultdict
 
 # Load a pre-trained YOLO model (here we use YOLOv8n pre-trained on COCO)
 model = YOLO('yolov8n.pt')  # contains 'person' class
+# Enable tracking in the model
+model.tracker = "bytetrack.yaml"  # Using ByteTrack for object tracking
 
 # Open the input soccer video
 cap = cv2.VideoCapture('input_soccer_clip.mp4')
@@ -15,16 +18,28 @@ fps    = cap.get(cv2.CAP_PROP_FPS)
 # Define video writer to save output with bounding box
 out = cv2.VideoWriter('output_referee_detected.mp4', cv2.VideoWriter_fourcc(*'mp4v'), fps, (width, height))
 
+# Dictionary to store color history for each track_id
+track_color_history = defaultdict(list)
+# Dictionary to store referee prediction for each track_id
+referee_predictions = defaultdict(int)
+# Threshold for referee prediction confidence
+REFEREE_THRESHOLD = 5
+
+frame_count = 0
+
 while True:
     ret, frame = cap.read()
     if not ret:
         break  # end of video
+    
+    frame_count += 1
 
-    # Use YOLO to detect persons in the frame
-    results = model(frame, verbose=False)  # get predictions
-    detections = []  # to store (bbox, color_feature)
-    for r in results:
-        for box in r.boxes:
+    # Use YOLO to detect and track persons in the frame
+    results = model.track(frame, persist=True, verbose=False)  # get predictions with tracking
+    detections = []  # to store (bbox, color_feature, track_id)
+    
+    if results[0].boxes is not None and hasattr(results[0].boxes, 'id'):
+        for box, track_id in zip(results[0].boxes, results[0].boxes.id):
             cls_id = int(box.cls[0])
             if model.names[cls_id] == 'person':  # if detection is a person
                 # Get bounding box coordinates
@@ -63,40 +78,71 @@ while True:
                     # If all pixels are green, use the original mean (fallback)
                     mean_color = person_roi.reshape(-1, 3).mean(axis=0)
                 
-                detections.append(((x1, y1, x2, y2), mean_color))
+                # Add to detections with track_id
+                track_id = int(track_id)
+                detections.append(((x1, y1, x2, y2), mean_color, track_id))
+                
+                # Store color feature in track history
+                track_color_history[track_id].append(mean_color)
+                # Keep last 30 frames of history per track
+                if len(track_color_history[track_id]) > 30:
+                    track_color_history[track_id].pop(0)
 
     # If no people detected, just write frame and continue
     if not detections:
         out.write(frame)
         continue
 
-    # Cluster the detected people by color (if at least 2 detections)
-    colors = [det[1] for det in detections]
-    n_clusters = min(3, len(colors))  # up to 3 clusters (two teams & referee)
-    labels = [0] * len(colors)
-    if len(colors) >= 2:
+    # Process each track that has enough history
+    tracks_with_sufficient_history = {
+        track_id: np.mean(colors, axis=0) 
+        for track_id, colors in track_color_history.items() 
+        if len(colors) >= 5  # Require at least 5 frames of history
+    }
+    
+    if len(tracks_with_sufficient_history) >= 2:
+        # Cluster the tracks by their average color
+        track_ids = list(tracks_with_sufficient_history.keys())
+        avg_colors = list(tracks_with_sufficient_history.values())
+        
+        n_clusters = min(3, len(avg_colors))  # up to 3 clusters (two teams & referee)
         kmeans = KMeans(n_clusters=n_clusters, n_init=10, random_state=0)
-        labels = kmeans.fit_predict(colors)
+        track_labels = kmeans.fit_predict(avg_colors)
+        
+        # Determine which cluster is likely the referee cluster
+        unique, counts = np.unique(track_labels, return_counts=True)
+        # Find cluster with minimum count (smallest group)
+        ref_cluster = unique[np.argmin(counts)]
+        
+        # Update referee predictions based on cluster assignment
+        for track_id, label in zip(track_ids, track_labels):
+            if label == ref_cluster:
+                referee_predictions[track_id] += 1
+            else:
+                referee_predictions[track_id] = max(0, referee_predictions[track_id] - 1)
 
-    # Determine which cluster is likely the referee cluster
-    # We assume the referee cluster will have the fewest members (distinct color)
-    unique, counts = np.unique(labels, return_counts=True)
-    # Find cluster with minimum count (smallest group)
-    ref_cluster = unique[np.argmin(counts)]
-
-    # Draw bounding box for any detection in the referee cluster
-    for (bbox, color), label in zip(detections, labels):
+    # Draw bounding boxes based on tracking and referee predictions
+    for (bbox, color, track_id) in detections:
         x1, y1, x2, y2 = bbox
-        if label == ref_cluster:
+        
+        # Determine if this track is likely a referee
+        is_referee = referee_predictions.get(track_id, 0) >= REFEREE_THRESHOLD
+        
+        if is_referee:
             # Draw a red rectangle around the referee (thicker line)
             cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 0, 255), 3)
-            cv2.putText(frame, "Referee", (x1, y1-10), cv2.FONT_HERSHEY_SIMPLEX, 
+            cv2.putText(frame, f"Referee ID:{track_id}", (x1, y1-10), cv2.FONT_HERSHEY_SIMPLEX, 
                         0.8, (0,0,255), 2, cv2.LINE_AA)
         else:
-            # (Optional) draw thinner boxes for players for illustration
+            # Draw thinner boxes for players
             cv2.rectangle(frame, (x1, y1), (x2, y2), (0, 255, 0), 1)
+            # Optionally show track ID
+            cv2.putText(frame, f"ID:{track_id}", (x1, y1-10), cv2.FONT_HERSHEY_SIMPLEX, 
+                        0.5, (0,255,0), 1, cv2.LINE_AA)
+    
     out.write(frame)
 
 # Release resources
 cap.release()
 out.release()
+cv2.destroyAllWindows()
