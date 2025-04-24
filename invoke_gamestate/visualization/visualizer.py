@@ -103,6 +103,7 @@ def get_frame_info(json_file_path: str, frame_id: Optional[str] = None) -> Frame
                 
                 # Create player
                 player = Player(
+                    track_id=pred["track_id"],
                     role=role,
                     team=team,
                     jersey_number=jersey,

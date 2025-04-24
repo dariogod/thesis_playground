@@ -10,6 +10,7 @@ class Position(BaseModel):
     y: float
 
 class Player(BaseModel):
+    track_id: int
     role: str = "player"
     team: str = "unknown"
     jersey_number: Optional[int] = None

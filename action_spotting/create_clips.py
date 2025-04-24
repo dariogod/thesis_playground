@@ -74,7 +74,7 @@ for item in data:
     matrix[frame, label_id] = confidence
 
 # Function to create a clip for a detected event
-def create_clip(center_frame, event_name, confidence, clip_length=126):
+def create_clip(center_frame, event_name, confidence, clip_length=126*2):
     # Calculate start and end frames
     half_length = clip_length // 2
     start_frame = max(0, center_frame - half_length)

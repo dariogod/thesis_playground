@@ -1,0 +1,1346 @@
+{
+  "action_2230": {
+    "num_frames": 120,
+    "avg_score": 0.645,
+    "min_score": 0.247,
+    "max_score": 0.956
+  },
+  "action_2725": {
+    "num_frames": 60,
+    "avg_score": 0.438,
+    "min_score": 0.166,
+    "max_score": 0.563
+  },
+  "action_1670": {
+    "num_frames": 51,
+    "avg_score": 0.808,
+    "min_score": 0.574,
+    "max_score": 0.977
+  },
+  "action_1959": {
+    "num_frames": 48,
+    "avg_score": 0.175,
+    "min_score": 0.0,
+    "max_score": 0.507
+  },
+  "action_2226": {
+    "num_frames": 88,
+    "avg_score": 0.441,
+    "min_score": 0.036,
+    "max_score": 0.816
+  },
+  "action_637": {
+    "num_frames": 111,
+    "avg_score": 0.236,
+    "min_score": 0.0,
+    "max_score": 0.627
+  },
+  "action_2508": {
+    "num_frames": 116,
+    "avg_score": 0.283,
+    "min_score": 0.014,
+    "max_score": 0.845
+  },
+  "action_1975": {
+    "num_frames": 126,
+    "avg_score": 0.24,
+    "min_score": 0.019,
+    "max_score": 0.5
+  },
+  "action_2089": {
+    "num_frames": 29,
+    "avg_score": 0.394,
+    "min_score": 0.204,
+    "max_score": 0.995
+  },
+  "action_477": {
+    "num_frames": 104,
+    "avg_score": 0.53,
+    "min_score": 0.341,
+    "max_score": 0.904
+  },
+  "action_2748": {
+    "num_frames": 111,
+    "avg_score": 0.261,
+    "min_score": 0.069,
+    "max_score": 0.583
+  },
+  "action_1871": {
+    "num_frames": 29,
+    "avg_score": 0.422,
+    "min_score": 0.256,
+    "max_score": 0.535
+  },
+  "action_1037": {
+    "num_frames": 77,
+    "avg_score": 0.718,
+    "min_score": 0.0,
+    "max_score": 0.987
+  },
+  "action_573": {
+    "num_frames": 107,
+    "avg_score": 0.438,
+    "min_score": 0.105,
+    "max_score": 0.678
+  },
+  "action_1963": {
+    "num_frames": 82,
+    "avg_score": 0.553,
+    "min_score": 0.145,
+    "max_score": 0.926
+  },
+  "action_748": {
+    "num_frames": 53,
+    "avg_score": 0.644,
+    "min_score": 0.0,
+    "max_score": 0.996
+  },
+  "action_461": {
+    "num_frames": 120,
+    "avg_score": 0.578,
+    "min_score": 0.464,
+    "max_score": 0.813
+  },
+  "action_2836": {
+    "num_frames": 27,
+    "avg_score": 0.174,
+    "min_score": 0.136,
+    "max_score": 0.329
+  },
+  "action_2904": {
+    "num_frames": 67,
+    "avg_score": 0.294,
+    "min_score": 0.017,
+    "max_score": 0.5
+  },
+  "action_2841": {
+    "num_frames": 126,
+    "avg_score": 0.272,
+    "min_score": 0.006,
+    "max_score": 0.743
+  },
+  "action_504": {
+    "num_frames": 87,
+    "avg_score": 0.431,
+    "min_score": 0.053,
+    "max_score": 0.509
+  },
+  "action_1943": {
+    "num_frames": 126,
+    "avg_score": 0.171,
+    "min_score": 0.0,
+    "max_score": 0.527
+  },
+  "action_2683": {
+    "num_frames": 125,
+    "avg_score": 0.428,
+    "min_score": 0.214,
+    "max_score": 0.506
+  },
+  "action_1390": {
+    "num_frames": 126,
+    "avg_score": 0.329,
+    "min_score": 0.0,
+    "max_score": 0.928
+  },
+  "action_1685": {
+    "num_frames": 59,
+    "avg_score": 0.53,
+    "min_score": 0.505,
+    "max_score": 0.612
+  },
+  "action_1113": {
+    "num_frames": 126,
+    "avg_score": 0.113,
+    "min_score": 0.006,
+    "max_score": 0.497
+  },
+  "action_2857": {
+    "num_frames": 1,
+    "avg_score": 0.23,
+    "min_score": 0.23,
+    "max_score": 0.23
+  },
+  "action_2085": {
+    "num_frames": 86,
+    "avg_score": 0.326,
+    "min_score": 0.044,
+    "max_score": 0.5
+  },
+  "action_2590": {
+    "num_frames": 37,
+    "avg_score": 0.387,
+    "min_score": 0.039,
+    "max_score": 0.5
+  },
+  "action_2656": {
+    "num_frames": 118,
+    "avg_score": 0.45,
+    "min_score": 0.314,
+    "max_score": 0.581
+  },
+  "action_1304": {
+    "num_frames": 10,
+    "avg_score": 0.396,
+    "min_score": 0.139,
+    "max_score": 0.499
+  },
+  "action_2197": {
+    "num_frames": 31,
+    "avg_score": 0.546,
+    "min_score": 0.392,
+    "max_score": 0.903
+  },
+  "action_1611": {
+    "num_frames": 123,
+    "avg_score": 0.621,
+    "min_score": 0.168,
+    "max_score": 0.981
+  },
+  "action_1492": {
+    "num_frames": 67,
+    "avg_score": 0.558,
+    "min_score": 0.296,
+    "max_score": 0.863
+  },
+  "action_2752": {
+    "num_frames": 110,
+    "avg_score": 0.482,
+    "min_score": 0.06,
+    "max_score": 0.605
+  },
+  "action_713": {
+    "num_frames": 117,
+    "avg_score": 0.482,
+    "min_score": 0.055,
+    "max_score": 0.792
+  },
+  "action_2705": {
+    "num_frames": 124,
+    "avg_score": 0.421,
+    "min_score": 0.152,
+    "max_score": 0.542
+  },
+  "action_2354": {
+    "num_frames": 125,
+    "avg_score": 0.415,
+    "min_score": 0.0,
+    "max_score": 0.931
+  },
+  "action_2092": {
+    "num_frames": 121,
+    "avg_score": 0.249,
+    "min_score": 0.013,
+    "max_score": 0.5
+  },
+  "action_2568": {
+    "num_frames": 84,
+    "avg_score": 0.49,
+    "min_score": 0.091,
+    "max_score": 0.945
+  },
+  "action_1485": {
+    "num_frames": 126,
+    "avg_score": 0.628,
+    "min_score": 0.088,
+    "max_score": 0.987
+  },
+  "action_36": {
+    "num_frames": 66,
+    "avg_score": 0.693,
+    "min_score": 0.009,
+    "max_score": 0.995
+  },
+  "action_20": {
+    "num_frames": 126,
+    "avg_score": 0.539,
+    "min_score": 0.498,
+    "max_score": 0.657
+  },
+  "action_704": {
+    "num_frames": 8,
+    "avg_score": 0.204,
+    "min_score": 0.051,
+    "max_score": 0.322
+  },
+  "action_587": {
+    "num_frames": 110,
+    "avg_score": 0.38,
+    "min_score": 0.196,
+    "max_score": 0.445
+  },
+  "action_568": {
+    "num_frames": 126,
+    "avg_score": 0.234,
+    "min_score": 0.003,
+    "max_score": 0.5
+  },
+  "action_1581": {
+    "num_frames": 126,
+    "avg_score": 0.268,
+    "min_score": 0.0,
+    "max_score": 0.781
+  },
+  "action_1407": {
+    "num_frames": 125,
+    "avg_score": 0.259,
+    "min_score": 0.0,
+    "max_score": 0.966
+  },
+  "action_1542": {
+    "num_frames": 91,
+    "avg_score": 0.109,
+    "min_score": 0.005,
+    "max_score": 0.505
+  },
+  "action_769": {
+    "num_frames": 24,
+    "avg_score": 0.568,
+    "min_score": 0.242,
+    "max_score": 0.901
+  },
+  "action_2397": {
+    "num_frames": 104,
+    "avg_score": 0.524,
+    "min_score": 0.329,
+    "max_score": 0.917
+  },
+  "action_1104": {
+    "num_frames": 37,
+    "avg_score": 0.272,
+    "min_score": 0.032,
+    "max_score": 0.509
+  },
+  "action_2285": {
+    "num_frames": 81,
+    "avg_score": 0.538,
+    "min_score": 0.415,
+    "max_score": 0.838
+  },
+  "action_964": {
+    "num_frames": 122,
+    "avg_score": 0.547,
+    "min_score": 0.048,
+    "max_score": 0.984
+  },
+  "action_1523": {
+    "num_frames": 116,
+    "avg_score": 0.587,
+    "min_score": 0.0,
+    "max_score": 0.871
+  },
+  "action_2749": {
+    "num_frames": 126,
+    "avg_score": 0.469,
+    "min_score": 0.019,
+    "max_score": 0.984
+  },
+  "action_476": {
+    "num_frames": 120,
+    "avg_score": 0.48,
+    "min_score": 0.441,
+    "max_score": 0.664
+  },
+  "action_2572": {
+    "num_frames": 55,
+    "avg_score": 0.389,
+    "min_score": 0.196,
+    "max_score": 0.79
+  },
+  "action_1325": {
+    "num_frames": 56,
+    "avg_score": 0.384,
+    "min_score": 0.0,
+    "max_score": 0.743
+  },
+  "action_2677": {
+    "num_frames": 12,
+    "avg_score": 0.306,
+    "min_score": 0.078,
+    "max_score": 0.47
+  },
+  "action_2724": {
+    "num_frames": 124,
+    "avg_score": 0.493,
+    "min_score": 0.393,
+    "max_score": 0.744
+  },
+  "action_2636": {
+    "num_frames": 126,
+    "avg_score": 0.472,
+    "min_score": 0.194,
+    "max_score": 0.696
+  },
+  "action_2847": {
+    "num_frames": 125,
+    "avg_score": 0.144,
+    "min_score": 0.0,
+    "max_score": 0.498
+  },
+  "action_2797": {
+    "num_frames": 87,
+    "avg_score": 0.225,
+    "min_score": 0.141,
+    "max_score": 0.5
+  },
+  "action_2778": {
+    "num_frames": 126,
+    "avg_score": 0.299,
+    "min_score": 0.048,
+    "max_score": 0.708
+  },
+  "action_1380": {
+    "num_frames": 126,
+    "avg_score": 0.375,
+    "min_score": 0.034,
+    "max_score": 0.853
+  },
+  "action_1400": {
+    "num_frames": 126,
+    "avg_score": 0.442,
+    "min_score": 0.015,
+    "max_score": 0.954
+  },
+  "action_1545": {
+    "num_frames": 125,
+    "avg_score": 0.54,
+    "min_score": 0.003,
+    "max_score": 0.958
+  },
+  "action_2739": {
+    "num_frames": 122,
+    "avg_score": 0.331,
+    "min_score": 0.024,
+    "max_score": 0.515
+  },
+  "action_1210": {
+    "num_frames": 80,
+    "avg_score": 0.35,
+    "min_score": 0.143,
+    "max_score": 0.511
+  },
+  "action_345": {
+    "num_frames": 126,
+    "avg_score": 0.44,
+    "min_score": 0.11,
+    "max_score": 0.998
+  },
+  "action_2703": {
+    "num_frames": 111,
+    "avg_score": 0.219,
+    "min_score": 0.033,
+    "max_score": 0.542
+  },
+  "action_2631": {
+    "num_frames": 101,
+    "avg_score": 0.356,
+    "min_score": 0.056,
+    "max_score": 0.52
+  },
+  "action_1949": {
+    "num_frames": 126,
+    "avg_score": 0.521,
+    "min_score": 0.027,
+    "max_score": 0.997
+  },
+  "action_2723": {
+    "num_frames": 82,
+    "avg_score": 0.521,
+    "min_score": 0.418,
+    "max_score": 0.687
+  },
+  "action_1676": {
+    "num_frames": 124,
+    "avg_score": 0.64,
+    "min_score": 0.162,
+    "max_score": 0.916
+  },
+  "action_723": {
+    "num_frames": 64,
+    "avg_score": 0.503,
+    "min_score": 0.068,
+    "max_score": 0.949
+  },
+  "action_1267": {
+    "num_frames": 42,
+    "avg_score": 0.329,
+    "min_score": 0.128,
+    "max_score": 0.437
+  },
+  "action_1565": {
+    "num_frames": 126,
+    "avg_score": 0.377,
+    "min_score": 0.001,
+    "max_score": 0.986
+  },
+  "action_1836": {
+    "num_frames": 123,
+    "avg_score": 0.431,
+    "min_score": 0.0,
+    "max_score": 0.998
+  },
+  "action_534": {
+    "num_frames": 9,
+    "avg_score": 0.651,
+    "min_score": 0.507,
+    "max_score": 0.754
+  },
+  "action_1861": {
+    "num_frames": 25,
+    "avg_score": 0.271,
+    "min_score": 0.0,
+    "max_score": 0.613
+  },
+  "action_2871": {
+    "num_frames": 51,
+    "avg_score": 0.514,
+    "min_score": 0.343,
+    "max_score": 0.923
+  },
+  "action_1524": {
+    "num_frames": 85,
+    "avg_score": 0.113,
+    "min_score": 0.013,
+    "max_score": 0.354
+  },
+  "action_2758": {
+    "num_frames": 37,
+    "avg_score": 0.731,
+    "min_score": 0.547,
+    "max_score": 0.95
+  },
+  "action_1932": {
+    "num_frames": 119,
+    "avg_score": 0.339,
+    "min_score": 0.0,
+    "max_score": 0.811
+  },
+  "action_2164": {
+    "num_frames": 33,
+    "avg_score": 0.581,
+    "min_score": 0.016,
+    "max_score": 0.881
+  },
+  "action_1748": {
+    "num_frames": 93,
+    "avg_score": 0.162,
+    "min_score": 0.009,
+    "max_score": 0.703
+  },
+  "action_1820": {
+    "num_frames": 107,
+    "avg_score": 0.488,
+    "min_score": 0.006,
+    "max_score": 0.918
+  },
+  "action_934": {
+    "num_frames": 22,
+    "avg_score": 0.522,
+    "min_score": 0.272,
+    "max_score": 1.0
+  },
+  "action_466": {
+    "num_frames": 89,
+    "avg_score": 0.192,
+    "min_score": 0.0,
+    "max_score": 0.546
+  },
+  "action_1821": {
+    "num_frames": 89,
+    "avg_score": 0.808,
+    "min_score": 0.356,
+    "max_score": 0.978
+  },
+  "action_132": {
+    "num_frames": 17,
+    "avg_score": 0.56,
+    "min_score": 0.388,
+    "max_score": 0.7
+  },
+  "action_2718": {
+    "num_frames": 44,
+    "avg_score": 0.491,
+    "min_score": 0.267,
+    "max_score": 0.813
+  },
+  "action_958": {
+    "num_frames": 92,
+    "avg_score": 0.164,
+    "min_score": 0.009,
+    "max_score": 0.578
+  },
+  "action_2763": {
+    "num_frames": 115,
+    "avg_score": 0.258,
+    "min_score": 0.065,
+    "max_score": 0.724
+  },
+  "action_667": {
+    "num_frames": 9,
+    "avg_score": 0.373,
+    "min_score": 0.302,
+    "max_score": 0.423
+  },
+  "action_2237": {
+    "num_frames": 66,
+    "avg_score": 0.41,
+    "min_score": 0.049,
+    "max_score": 0.981
+  },
+  "action_2149": {
+    "num_frames": 21,
+    "avg_score": 0.001,
+    "min_score": 0.0,
+    "max_score": 0.001
+  },
+  "action_1591": {
+    "num_frames": 119,
+    "avg_score": 0.307,
+    "min_score": 0.01,
+    "max_score": 0.59
+  },
+  "action_893": {
+    "num_frames": 5,
+    "avg_score": 0.465,
+    "min_score": 0.419,
+    "max_score": 0.496
+  },
+  "action_1657": {
+    "num_frames": 101,
+    "avg_score": 0.799,
+    "min_score": 0.59,
+    "max_score": 0.998
+  },
+  "action_2313": {
+    "num_frames": 11,
+    "avg_score": 0.0,
+    "min_score": 0.0,
+    "max_score": 0.0
+  },
+  "action_997": {
+    "num_frames": 48,
+    "avg_score": 0.535,
+    "min_score": 0.156,
+    "max_score": 0.815
+  },
+  "action_1991": {
+    "num_frames": 90,
+    "avg_score": 0.369,
+    "min_score": 0.129,
+    "max_score": 0.714
+  },
+  "action_2651": {
+    "num_frames": 108,
+    "avg_score": 0.268,
+    "min_score": 0.01,
+    "max_score": 0.515
+  },
+  "action_539": {
+    "num_frames": 12,
+    "avg_score": 0.2,
+    "min_score": 0.054,
+    "max_score": 0.42
+  },
+  "action_954": {
+    "num_frames": 63,
+    "avg_score": 0.472,
+    "min_score": 0.005,
+    "max_score": 0.978
+  },
+  "action_407": {
+    "num_frames": 95,
+    "avg_score": 0.318,
+    "min_score": 0.018,
+    "max_score": 0.736
+  },
+  "action_2411": {
+    "num_frames": 126,
+    "avg_score": 0.3,
+    "min_score": 0.166,
+    "max_score": 0.475
+  },
+  "action_2041": {
+    "num_frames": 125,
+    "avg_score": 0.11,
+    "min_score": 0.0,
+    "max_score": 0.5
+  },
+  "action_2807": {
+    "num_frames": 121,
+    "avg_score": 0.293,
+    "min_score": 0.0,
+    "max_score": 0.692
+  },
+  "action_1694": {
+    "num_frames": 121,
+    "avg_score": 0.513,
+    "min_score": 0.45,
+    "max_score": 0.671
+  },
+  "action_1913": {
+    "num_frames": 8,
+    "avg_score": 0.163,
+    "min_score": 0.015,
+    "max_score": 0.499
+  },
+  "action_1505": {
+    "num_frames": 125,
+    "avg_score": 0.76,
+    "min_score": 0.0,
+    "max_score": 0.999
+  },
+  "action_1155": {
+    "num_frames": 109,
+    "avg_score": 0.329,
+    "min_score": 0.0,
+    "max_score": 0.533
+  },
+  "action_717": {
+    "num_frames": 86,
+    "avg_score": 0.145,
+    "min_score": 0.002,
+    "max_score": 0.962
+  },
+  "action_2243": {
+    "num_frames": 26,
+    "avg_score": 0.485,
+    "min_score": 0.474,
+    "max_score": 0.494
+  },
+  "action_33": {
+    "num_frames": 48,
+    "avg_score": 0.288,
+    "min_score": 0.0,
+    "max_score": 0.641
+  },
+  "action_9": {
+    "num_frames": 58,
+    "avg_score": 0.405,
+    "min_score": 0.062,
+    "max_score": 0.895
+  },
+  "action_1496": {
+    "num_frames": 107,
+    "avg_score": 0.017,
+    "min_score": 0.0,
+    "max_score": 0.496
+  },
+  "action_1750": {
+    "num_frames": 123,
+    "avg_score": 0.228,
+    "min_score": 0.022,
+    "max_score": 0.52
+  },
+  "action_72": {
+    "num_frames": 108,
+    "avg_score": 0.099,
+    "min_score": 0.0,
+    "max_score": 0.256
+  },
+  "action_1091": {
+    "num_frames": 106,
+    "avg_score": 0.503,
+    "min_score": 0.331,
+    "max_score": 0.75
+  },
+  "action_1838": {
+    "num_frames": 108,
+    "avg_score": 0.439,
+    "min_score": 0.009,
+    "max_score": 0.922
+  },
+  "action_1906": {
+    "num_frames": 72,
+    "avg_score": 0.276,
+    "min_score": 0.112,
+    "max_score": 0.495
+  },
+  "action_2629": {
+    "num_frames": 119,
+    "avg_score": 0.044,
+    "min_score": 0.025,
+    "max_score": 0.147
+  },
+  "action_2150": {
+    "num_frames": 75,
+    "avg_score": 0.131,
+    "min_score": 0.002,
+    "max_score": 0.522
+  },
+  "action_1814": {
+    "num_frames": 12,
+    "avg_score": 0.08,
+    "min_score": 0.01,
+    "max_score": 0.273
+  },
+  "action_1681": {
+    "num_frames": 82,
+    "avg_score": 0.551,
+    "min_score": 0.482,
+    "max_score": 0.723
+  },
+  "action_845": {
+    "num_frames": 22,
+    "avg_score": 0.089,
+    "min_score": 0.039,
+    "max_score": 0.159
+  },
+  "action_1947": {
+    "num_frames": 126,
+    "avg_score": 0.477,
+    "min_score": 0.028,
+    "max_score": 0.98
+  },
+  "action_445": {
+    "num_frames": 126,
+    "avg_score": 0.525,
+    "min_score": 0.023,
+    "max_score": 0.957
+  },
+  "action_2404": {
+    "num_frames": 85,
+    "avg_score": 0.51,
+    "min_score": 0.481,
+    "max_score": 0.572
+  },
+  "action_1156": {
+    "num_frames": 54,
+    "avg_score": 0.12,
+    "min_score": 0.013,
+    "max_score": 0.467
+  },
+  "action_804": {
+    "num_frames": 126,
+    "avg_score": 0.489,
+    "min_score": 0.007,
+    "max_score": 0.515
+  },
+  "action_1967": {
+    "num_frames": 79,
+    "avg_score": 0.422,
+    "min_score": 0.116,
+    "max_score": 0.998
+  },
+  "action_87": {
+    "num_frames": 126,
+    "avg_score": 0.36,
+    "min_score": 0.031,
+    "max_score": 0.759
+  },
+  "action_1121": {
+    "num_frames": 72,
+    "avg_score": 0.205,
+    "min_score": 0.0,
+    "max_score": 0.553
+  },
+  "action_2473": {
+    "num_frames": 125,
+    "avg_score": 0.401,
+    "min_score": 0.064,
+    "max_score": 0.773
+  },
+  "action_1463": {
+    "num_frames": 36,
+    "avg_score": 0.363,
+    "min_score": 0.0,
+    "max_score": 0.892
+  },
+  "action_1199": {
+    "num_frames": 97,
+    "avg_score": 0.71,
+    "min_score": 0.037,
+    "max_score": 1.0
+  },
+  "action_2760": {
+    "num_frames": 76,
+    "avg_score": 0.293,
+    "min_score": 0.125,
+    "max_score": 0.522
+  },
+  "action_1009": {
+    "num_frames": 92,
+    "avg_score": 0.505,
+    "min_score": 0.441,
+    "max_score": 0.588
+  },
+  "action_1818": {
+    "num_frames": 126,
+    "avg_score": 0.116,
+    "min_score": 0.0,
+    "max_score": 0.721
+  },
+  "action_1361": {
+    "num_frames": 126,
+    "avg_score": 0.744,
+    "min_score": 0.371,
+    "max_score": 0.985
+  },
+  "action_673": {
+    "num_frames": 94,
+    "avg_score": 0.404,
+    "min_score": 0.13,
+    "max_score": 0.518
+  },
+  "action_2777": {
+    "num_frames": 125,
+    "avg_score": 0.358,
+    "min_score": 0.329,
+    "max_score": 0.413
+  },
+  "action_2798": {
+    "num_frames": 96,
+    "avg_score": 0.066,
+    "min_score": 0.003,
+    "max_score": 0.494
+  },
+  "action_798": {
+    "num_frames": 100,
+    "avg_score": 0.522,
+    "min_score": 0.052,
+    "max_score": 0.855
+  },
+  "action_1399": {
+    "num_frames": 126,
+    "avg_score": 0.246,
+    "min_score": 0.0,
+    "max_score": 0.669
+  },
+  "action_2274": {
+    "num_frames": 2,
+    "avg_score": 0.252,
+    "min_score": 0.004,
+    "max_score": 0.501
+  },
+  "action_2825": {
+    "num_frames": 4,
+    "avg_score": 0.575,
+    "min_score": 0.513,
+    "max_score": 0.747
+  },
+  "action_921": {
+    "num_frames": 30,
+    "avg_score": 0.454,
+    "min_score": 0.031,
+    "max_score": 0.781
+  },
+  "action_2608": {
+    "num_frames": 83,
+    "avg_score": 0.774,
+    "min_score": 0.185,
+    "max_score": 0.987
+  },
+  "action_2425": {
+    "num_frames": 81,
+    "avg_score": 0.284,
+    "min_score": 0.0,
+    "max_score": 0.74
+  },
+  "action_940": {
+    "num_frames": 126,
+    "avg_score": 0.793,
+    "min_score": 0.262,
+    "max_score": 0.999
+  },
+  "action_1854": {
+    "num_frames": 105,
+    "avg_score": 0.418,
+    "min_score": 0.0,
+    "max_score": 0.959
+  },
+  "action_1507": {
+    "num_frames": 126,
+    "avg_score": 0.376,
+    "min_score": 0.005,
+    "max_score": 0.843
+  },
+  "action_1911": {
+    "num_frames": 99,
+    "avg_score": 0.675,
+    "min_score": 0.0,
+    "max_score": 0.999
+  },
+  "action_151": {
+    "num_frames": 102,
+    "avg_score": 0.507,
+    "min_score": 0.002,
+    "max_score": 0.842
+  },
+  "action_2405": {
+    "num_frames": 124,
+    "avg_score": 0.49,
+    "min_score": 0.106,
+    "max_score": 0.646
+  },
+  "action_405": {
+    "num_frames": 126,
+    "avg_score": 0.659,
+    "min_score": 0.0,
+    "max_score": 0.968
+  },
+  "action_2203": {
+    "num_frames": 3,
+    "avg_score": 0.009,
+    "min_score": 0.002,
+    "max_score": 0.018
+  },
+  "action_1585": {
+    "num_frames": 96,
+    "avg_score": 0.552,
+    "min_score": 0.0,
+    "max_score": 0.998
+  },
+  "action_2716": {
+    "num_frames": 79,
+    "avg_score": 0.43,
+    "min_score": 0.0,
+    "max_score": 0.736
+  },
+  "action_242": {
+    "num_frames": 2,
+    "avg_score": 0.079,
+    "min_score": 0.069,
+    "max_score": 0.089
+  },
+  "action_2346": {
+    "num_frames": 112,
+    "avg_score": 0.377,
+    "min_score": 0.002,
+    "max_score": 0.821
+  },
+  "action_2468": {
+    "num_frames": 74,
+    "avg_score": 0.363,
+    "min_score": 0.094,
+    "max_score": 0.52
+  },
+  "action_1614": {
+    "num_frames": 126,
+    "avg_score": 0.421,
+    "min_score": 0.116,
+    "max_score": 0.979
+  },
+  "action_983": {
+    "num_frames": 107,
+    "avg_score": 0.035,
+    "min_score": 0.007,
+    "max_score": 0.156
+  },
+  "action_1439": {
+    "num_frames": 81,
+    "avg_score": 0.158,
+    "min_score": 0.001,
+    "max_score": 0.928
+  },
+  "action_1985": {
+    "num_frames": 18,
+    "avg_score": 0.045,
+    "min_score": 0.008,
+    "max_score": 0.102
+  },
+  "action_2350": {
+    "num_frames": 96,
+    "avg_score": 0.306,
+    "min_score": 0.108,
+    "max_score": 0.813
+  },
+  "action_176": {
+    "num_frames": 106,
+    "avg_score": 0.43,
+    "min_score": 0.22,
+    "max_score": 0.614
+  },
+  "action_930": {
+    "num_frames": 52,
+    "avg_score": 0.149,
+    "min_score": 0.002,
+    "max_score": 0.505
+  },
+  "action_2475": {
+    "num_frames": 64,
+    "avg_score": 0.5,
+    "min_score": 0.121,
+    "max_score": 0.669
+  },
+  "action_2033": {
+    "num_frames": 80,
+    "avg_score": 0.457,
+    "min_score": 0.004,
+    "max_score": 0.516
+  },
+  "action_1218": {
+    "num_frames": 33,
+    "avg_score": 0.391,
+    "min_score": 0.131,
+    "max_score": 0.501
+  },
+  "action_863": {
+    "num_frames": 95,
+    "avg_score": 0.283,
+    "min_score": 0.021,
+    "max_score": 0.508
+  },
+  "action_2658": {
+    "num_frames": 90,
+    "avg_score": 0.174,
+    "min_score": 0.0,
+    "max_score": 0.58
+  },
+  "action_398": {
+    "num_frames": 12,
+    "avg_score": 0.801,
+    "min_score": 0.604,
+    "max_score": 0.902
+  },
+  "action_2623": {
+    "num_frames": 27,
+    "avg_score": 0.255,
+    "min_score": 0.088,
+    "max_score": 0.448
+  },
+  "action_1371": {
+    "num_frames": 8,
+    "avg_score": 0.325,
+    "min_score": 0.247,
+    "max_score": 0.421
+  },
+  "action_1367": {
+    "num_frames": 125,
+    "avg_score": 0.358,
+    "min_score": 0.007,
+    "max_score": 0.561
+  },
+  "action_2727": {
+    "num_frames": 120,
+    "avg_score": 0.545,
+    "min_score": 0.471,
+    "max_score": 0.7
+  },
+  "action_253": {
+    "num_frames": 61,
+    "avg_score": 0.399,
+    "min_score": 0.146,
+    "max_score": 0.5
+  },
+  "action_1982": {
+    "num_frames": 77,
+    "avg_score": 0.108,
+    "min_score": 0.028,
+    "max_score": 0.304
+  },
+  "action_1605": {
+    "num_frames": 126,
+    "avg_score": 0.599,
+    "min_score": 0.0,
+    "max_score": 0.993
+  },
+  "action_1490": {
+    "num_frames": 76,
+    "avg_score": 0.571,
+    "min_score": 0.246,
+    "max_score": 0.732
+  },
+  "action_2195": {
+    "num_frames": 117,
+    "avg_score": 0.506,
+    "min_score": 0.012,
+    "max_score": 0.999
+  },
+  "action_584": {
+    "num_frames": 126,
+    "avg_score": 0.174,
+    "min_score": 0.013,
+    "max_score": 0.515
+  },
+  "action_750": {
+    "num_frames": 79,
+    "avg_score": 0.161,
+    "min_score": 0.014,
+    "max_score": 0.424
+  },
+  "action_615": {
+    "num_frames": 63,
+    "avg_score": 0.646,
+    "min_score": 0.375,
+    "max_score": 0.977
+  },
+  "action_951": {
+    "num_frames": 86,
+    "avg_score": 0.634,
+    "min_score": 0.375,
+    "max_score": 0.929
+  },
+  "action_2506": {
+    "num_frames": 36,
+    "avg_score": 0.42,
+    "min_score": 0.0,
+    "max_score": 0.569
+  },
+  "action_639": {
+    "num_frames": 69,
+    "avg_score": 0.463,
+    "min_score": 0.224,
+    "max_score": 0.905
+  },
+  "action_2228": {
+    "num_frames": 87,
+    "avg_score": 0.467,
+    "min_score": 0.327,
+    "max_score": 0.809
+  },
+  "action_1957": {
+    "num_frames": 117,
+    "avg_score": 0.364,
+    "min_score": 0.0,
+    "max_score": 0.945
+  },
+  "action_1054": {
+    "num_frames": 18,
+    "avg_score": 0.36,
+    "min_score": 0.2,
+    "max_score": 0.513
+  },
+  "action_1392": {
+    "num_frames": 125,
+    "avg_score": 0.278,
+    "min_score": 0.006,
+    "max_score": 0.612
+  },
+  "action_1691": {
+    "num_frames": 31,
+    "avg_score": 0.299,
+    "min_score": 0.082,
+    "max_score": 0.824
+  },
+  "action_443": {
+    "num_frames": 126,
+    "avg_score": 0.252,
+    "min_score": 0.032,
+    "max_score": 0.68
+  },
+  "action_506": {
+    "num_frames": 1,
+    "avg_score": 0.316,
+    "min_score": 0.316,
+    "max_score": 0.316
+  },
+  "action_1629": {
+    "num_frames": 14,
+    "avg_score": 0.419,
+    "min_score": 0.172,
+    "max_score": 0.651
+  },
+  "action_1501": {
+    "num_frames": 76,
+    "avg_score": 0.501,
+    "min_score": 0.195,
+    "max_score": 0.861
+  },
+  "action_1110": {
+    "num_frames": 1,
+    "avg_score": 0.505,
+    "min_score": 0.505,
+    "max_score": 0.505
+  },
+  "action_950": {
+    "num_frames": 126,
+    "avg_score": 0.53,
+    "min_score": 0.0,
+    "max_score": 0.926
+  },
+  "action_2291": {
+    "num_frames": 1,
+    "avg_score": 0.008,
+    "min_score": 0.008,
+    "max_score": 0.008
+  },
+  "action_1700": {
+    "num_frames": 102,
+    "avg_score": 0.453,
+    "min_score": 0.0,
+    "max_score": 1.0
+  },
+  "action_2710": {
+    "num_frames": 112,
+    "avg_score": 0.38,
+    "min_score": 0.031,
+    "max_score": 0.503
+  },
+  "action_1307": {
+    "num_frames": 13,
+    "avg_score": 0.097,
+    "min_score": 0.051,
+    "max_score": 0.251
+  },
+  "action_2602": {
+    "num_frames": 126,
+    "avg_score": 0.298,
+    "min_score": 0.008,
+    "max_score": 0.916
+  },
+  "action_34": {
+    "num_frames": 67,
+    "avg_score": 0.786,
+    "min_score": 0.563,
+    "max_score": 0.953
+  },
+  "action_2839": {
+    "num_frames": 49,
+    "avg_score": 0.353,
+    "min_score": 0.0,
+    "max_score": 0.502
+  },
+  "action_63": {
+    "num_frames": 119,
+    "avg_score": 0.333,
+    "min_score": 0.25,
+    "max_score": 0.451
+  },
+  "action_252": {
+    "num_frames": 115,
+    "avg_score": 0.556,
+    "min_score": 0.0,
+    "max_score": 0.937
+  },
+  "action_272": {
+    "num_frames": 27,
+    "avg_score": 0.457,
+    "min_score": 0.272,
+    "max_score": 0.502
+  },
+  "action_663": {
+    "num_frames": 13,
+    "avg_score": 0.013,
+    "min_score": 0.005,
+    "max_score": 0.02
+  },
+  "action_2659": {
+    "num_frames": 15,
+    "avg_score": 0.074,
+    "min_score": 0.051,
+    "max_score": 0.222
+  },
+  "action_1075": {
+    "num_frames": 122,
+    "avg_score": 0.265,
+    "min_score": 0.019,
+    "max_score": 0.713
+  },
+  "action_2065": {
+    "num_frames": 71,
+    "avg_score": 0.508,
+    "min_score": 0.288,
+    "max_score": 0.619
+  },
+  "action_1864": {
+    "num_frames": 89,
+    "avg_score": 0.287,
+    "min_score": 0.0,
+    "max_score": 0.695
+  },
+  "action_1825": {
+    "num_frames": 126,
+    "avg_score": 0.247,
+    "min_score": 0.0,
+    "max_score": 0.885
+  }
+}

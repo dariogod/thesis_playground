@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Video Selector</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Video Selector</h1>
+    
+    <div id="video-container">
+      <video id="current-video" controls autoplay></video>
+    </div>
+    
+    <div id="loading-message">Loading videos...</div>
+    
+    <div id="video-info">
+      <p>Video <span id="current-index">0</span> of <span id="total-videos">0</span>: <span id="video-name">-</span></p>
+    </div>
+    
+    <div id="rating-buttons">
+      <button id="good-btn" class="btn good-btn">Good</button>
+      <button id="bad-btn" class="btn bad-btn">Bad</button>
+    </div>
+    
+    <div id="navigation-buttons">
+      <button id="prev-btn" class="btn nav-btn">Previous</button>
+      <button id="next-btn" class="btn nav-btn">Next</button>
+    </div>
+    
+    <div id="status-message"></div>
+  </div>
+  
+  <script src="app.js"></script>
+</body>
+</html> 
