@@ -179,8 +179,8 @@ def create_video(frame_paths: List[Path], output_path: Path, fps: int = 10) -> N
     first_frame = cv2.imread(str(frame_paths[0]))
     height, width, _ = first_frame.shape
     
-    # Initialize video writer
-    fourcc = cv2.VideoWriter_fourcc(*'mp4v')
+    # Initialize video writer with a more compatible codec
+    fourcc = cv2.VideoWriter_fourcc(*'avc1')  # H.264 codec - highly compatible
     video_writer = cv2.VideoWriter(str(output_path), fourcc, fps, (width, height))
     
     # Add frames to video with tqdm progress bar
