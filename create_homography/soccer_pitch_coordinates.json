@@ -1,0 +1,155 @@
+{
+  "pitch_dimensions": {
+    "width": 105.0,
+    "height": 68.0
+  },
+  "corners": {
+    "top_left": [
+      -52.5,
+      -34.0
+    ],
+    "top_right": [
+      52.5,
+      -34.0
+    ],
+    "bottom_left": [
+      -52.5,
+      34.0
+    ],
+    "bottom_right": [
+      52.5,
+      34.0
+    ]
+  },
+  "center": {
+    "point": [
+      0.0,
+      0.0
+    ],
+    "circle_radius": 9.15
+  },
+  "penalty_spots": {
+    "left": [
+      -11.0,
+      0.0
+    ],
+    "right": [
+      11.0,
+      0.0
+    ]
+  },
+  "penalty_areas": {
+    "left": {
+      "top_left": [
+        -52.5,
+        -20.16
+      ],
+      "top_right": [
+        -36.0,
+        -20.16
+      ],
+      "bottom_left": [
+        -52.5,
+        20.16
+      ],
+      "bottom_right": [
+        -36.0,
+        20.16
+      ]
+    },
+    "right": {
+      "top_left": [
+        36.0,
+        -20.16
+      ],
+      "top_right": [
+        52.5,
+        -20.16
+      ],
+      "bottom_left": [
+        36.0,
+        20.16
+      ],
+      "bottom_right": [
+        52.5,
+        20.16
+      ]
+    }
+  },
+  "goal_areas": {
+    "left": {
+      "top_left": [
+        -52.5,
+        -9.16
+      ],
+      "top_right": [
+        -47.0,
+        -9.16
+      ],
+      "bottom_left": [
+        -52.5,
+        9.16
+      ],
+      "bottom_right": [
+        -47.0,
+        9.16
+      ]
+    },
+    "right": {
+      "top_left": [
+        47.0,
+        -9.16
+      ],
+      "top_right": [
+        52.5,
+        -9.16
+      ],
+      "bottom_left": [
+        47.0,
+        9.16
+      ],
+      "bottom_right": [
+        52.5,
+        9.16
+      ]
+    }
+  },
+  "goals": {
+    "left": {
+      "post_top": [
+        -52.5,
+        -3.66
+      ],
+      "post_bottom": [
+        -52.5,
+        3.66
+      ]
+    },
+    "right": {
+      "post_top": [
+        52.5,
+        -3.66
+      ],
+      "post_bottom": [
+        52.5,
+        3.66
+      ]
+    }
+  },
+  "center_line": {
+    "top": [
+      0.0,
+      -34.0
+    ],
+    "bottom": [
+      0.0,
+      34.0
+    ]
+  },
+  "corner_arcs": {
+    "radius": 1.0
+  },
+  "penalty_arcs": {
+    "radius": 9.15
+  }
+}
